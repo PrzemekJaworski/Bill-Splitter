@@ -1,0 +1,89 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Body styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(233, 233, 233);
+}
+
+/* Wrapper container */
+.wrapper {
+  width: 600px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #000000;
+}
+
+/* Top section styling */
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  color: #fff;
+  background-color: #5cc7b7;
+}
+
+/* Bottom section styling */
+.bottom {
+  padding: 40px 20px;
+}
+
+/* Labels */
+.bottom label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+/* Inputs and dropdown */
+.bottom input,
+.bottom select {
+  margin-bottom: 25px;
+  padding: 8px 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(185, 185, 185);
+}
+
+/* Calculate button */
+.count {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 10px;
+  width: 60%;
+  font-size: 24px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #5cc7b7;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.count:hover {
+  background-color: rgb(83, 180, 166);
+}
+
+/* Cost info section */
+.cost-info {
+  display: none;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+/* Error message */
+.error {
+  font-size: 18px;
+  color: rgb(199, 63, 29);
+  text-align: center;
+}
