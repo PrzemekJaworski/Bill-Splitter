@@ -35,7 +35,7 @@ To run the project locally:
 1️⃣ Clone the repository using Git:
 
 ```bash
-git clone https://github.com/PrzemekJaworski/BillSplitter.git
+git clone https://github.com/PrzemekJaworski/Bill-Splitter.git
 ```
 
 2️⃣ Navigate to the project folder:
